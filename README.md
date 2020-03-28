@@ -26,5 +26,5 @@ Finally, a Time Trigger function is triggered on the date specified by the HR an
 * speak-tts
 
 ## Flow Chart
-![](Untitled Document.png)
+![](Untitled Document)
 
