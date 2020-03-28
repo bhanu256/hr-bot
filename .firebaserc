@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "automathon-bot": {
+      "hosting": {
+        "project": [
+          "automathon-bot"
+        ]
+      }
+    }
+  }
+}

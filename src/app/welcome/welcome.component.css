@@ -1,0 +1,108 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+    font-family: 'Bellota', cursive;
+    
+}
+.nameDiv
+{
+	text-align: center;
+	margin-top: 10%;
+}
+.nameDivText
+{
+	color: #0277BD;
+}
+
+.botIntroDiv
+{
+	text-align: center;
+}
+
+.botIntroDivTwo
+{
+	margin: 40px;
+}
+
+.accessDone::after
+{
+	content: "Done";
+	color: green;
+}
+
+.accessNotDone::after
+{
+	content: "Not Done";
+	color: red;
+}
+
+.startButtonDiv
+{
+	
+	display: inline-block;
+}
+
+.enable
+{
+	border:1px solid #8BC34A;
+	border-radius: 50%;
+	background-color: #8BC34A;
+	color: white;
+}
+
+.enable:hover
+{
+	box-shadow: 5px 10px #AED581;
+}
+
+.notenable
+{
+	border:1px solid #f44336;
+	border-radius: 50%;
+	background-color: #f44336;
+	color: white;
+	pointer-events: none;
+
+}
+
+
+.startButton
+{
+	margin: 100px;
+	text-decoration: none;
+	color: white;
+}
+
+
+.interviewBest
+{
+	margin: 5%;
+	text-align: center;
+}
+
+.interviewPanel
+{
+	border: 0.5px solid grey;
+	border-radius: 2px;
+	margin: 50px;
+	box-shadow: 5px 2px 10px #BDBDBD;
+}
+
+.interviewPanelHeader
+{
+	text-align: center;
+	border-bottom: 0.5px solid grey;
+	box-shadow: 1px 1px 1px black;
+}
+
+.interviewPanelHeader h4
+{
+	margin: 10px;
+}
+
+.interviewQuestion
+{
+	text-align: center;
+	margin: 70px;
+	color: #4527A0;
+}
