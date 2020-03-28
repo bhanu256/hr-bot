@@ -1,0 +1,28 @@
+<div >
+    <div class="container signupbox animated fadeInLeft">
+        <div class="signuphalfone" style="background-color: #3B945E;">
+            <br><br><br><br><br>
+            <h1><strong>Welcome..</strong></h1>
+            <p>Login with the credentials that are sent to you email</p>
+            <p>All the best!</p>
+        </div>
+    
+            <div class="signuphalftwo">
+                <br><br><br>
+                <div>
+                    <label>Username : </label>
+                    <input type="text" name="stuemail" class="effect-1" style="font-weight: bold;" #user>
+                    <span class="focus-border"></span><br>
+                    <label>Password : </label>
+                    <input type="password" name="stupwd" class="effect-1" style="font-weight: bold;" #pass>
+                    <span class="focus-border"></span><br><br>
+                    <br>
+                    <p *ngIf="err">Invalid credentials</p>
+                    <button class="btn-5" (click)="auth(user.value,pass.value)">Login</button>
+                </div>
+                <hr style="margin: 10px;">
+                <br>
+                <p>Made using Azuze and Automation Anywhere</p>
+            </div>
+    </div>
+</div>

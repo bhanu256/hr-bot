@@ -1,0 +1,9 @@
+<div class="full">
+    <div>
+        <p #qhtml class="text"></p>
+    </div>
+    
+    <div class="footer">
+        <webcam [trigger]="triggerObservable" (imageCapture)="handleImage($event)" [mirrorImage] ="mirror" [height]="150" [width]="150"></webcam>
+    </div>
+</div>

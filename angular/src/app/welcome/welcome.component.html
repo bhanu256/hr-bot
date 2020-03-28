@@ -1,0 +1,24 @@
+    <div>
+        <div>
+            <div class="nameDiv">
+                <h2>Hello, <span class="nameDivText"><strong>{{name}}</strong></span></h2>
+            </div>
+    
+            <div class="botIntroDiv">
+                <h3>I am <b>Kara</b>, an Artificial Intelligence bot made using Azure &amp; AA 🤖</h3>
+                <div class="botIntroDivTwo">
+                    <p>First of all congratulations for being shortlisted in the first round. People here have analyzed your resume using my services, and thought you will be suitable for this role. I am excited to get to know about you more, in technical prospects.</p>
+                    <p><strong>I need access to your microphone and web camera to smooth the interview. The start button will enable once you give the permission.</strong></p>
+                </div>
+    
+                <div>
+                    <h4>Microphone access: <span [ngClass]="audioGranted?'accessDone':'accessNotDone'"></span></h4>
+                    <h4>Web camera access: <span [ngClass]="videoGranted?'accessDone':'accessNotDone'"></span></h4>
+                    <div class="startButtonDiv enable">
+                        <a (click)="nav()" class="startButton"><h1>Start</h1></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
