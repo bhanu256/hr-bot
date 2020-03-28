@@ -5,6 +5,7 @@ A automated interview bot made with Angular, Azure Cognitive Services & Automati
 * [General-info](#general-info)
 * [Technologies](#technologies)
 * [Flow Chart](#flow-chart)
+* [Video link](#video-link)
 
 ## General info
 In general scenario, a HR has to go through tons of resumes to find out eligible candidates for the interview, even now they have to interview hundreds of candidates face-to-face/virtually to select the right person. All of this is a time consuming process which often takes few days to weeks. Our project intention is to reduce this time from days to few hours. Autoview consists of two modules:
@@ -28,3 +29,5 @@ Finally, a Time Trigger function is triggered on the date specified by the HR an
 ## Flow Chart
 <img src="Untitled Document.png" />
 
+## Video link
+Demo link : <https://drive.google.com/file/d/1CPbRDRa60h-ZMESR0Ro9Nb5EzEns-yQZ/view?usp=sharing>
