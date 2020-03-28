@@ -1,0 +1,21 @@
+.footer{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 150px;
+    display: block;
+}
+
+.full{
+    height: 100vh;
+    background-color: #171924;
+    margin: 0;
+    display: flex;
+}
+
+.text{
+    color: white;
+    font-size: 6em;
+    margin-left: 1em;
+}

@@ -1,0 +1,18 @@
+.full{
+    height: 100vh;
+    background-color: #171924;
+    margin: 0;
+    display: flex;
+}
+
+.text{
+    color: white;
+    font-size: 6em;
+    text-align: center;
+    width: 100%;
+}
+
+.alg{
+    display: flex;
+    width: 100%;
+}
