@@ -1,0 +1,14 @@
+import json
+def deload(res):
+  obj = json.loads(res[0])
+  skill = res[1].lower().split(",")
+  result = ""
+  email = ""
+  for i in obj['documents'][0]['entities']:
+    if(i['type']=="Skill" and (i['text'].lower() in skill)):
+      result = result + i['text'] + ","
+    elif(i['type']=="Email"):
+      email = i['text']
+      
+  result = result + "email:" + email
+  return result
