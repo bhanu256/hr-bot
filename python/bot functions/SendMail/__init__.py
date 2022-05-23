@@ -24,12 +24,12 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     if name:
         s = smtplib.SMTP('smtp.gmail.com',587)
         s.starttls()
-        s.login("bhanuphani100@gmail.com","chowd@ry")
+        s.login("","")
         mes = ("Subject : Shortlisted\n\n Dear "+name+",\n You have been shortlisted for the job profile of "+profile
         +". Please login to the below link with given cedentials and attend the interview before "+lastdate
         +"\nLink : https://autoview.azurewebsites.net/?b="+batch+"\n Username : "+name
         +"\nPassword : "+passw)
-        s.sendmail("bhanuphani100@gmail.com",mail,mes)
+        s.sendmail("",mail,mes)
         s.quit()
         return func.HttpResponse(f"suc")
     else:
