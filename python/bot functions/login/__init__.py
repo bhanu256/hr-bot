@@ -23,9 +23,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         try:
             mydb = mysql.connector.connect(
                 host = "remotemysql.com",
-                user="y1bqmvgncQ",
-                passwd="csaqN4Dz2S",
-                database="y1bqmvgncQ",
+                user="",
+                passwd="",
+                database="",
                 port=3306
             )
 
